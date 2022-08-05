@@ -31,6 +31,7 @@ public class SpawnManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0)) {
             click.Play();
+            click.Play();
         }
         objetos01[i].transform.position = Vector2.MoveTowards(objetos01[i].transform.position, objetivo.position, 3 * speed * Time.deltaTime);
         if (objetos01[i].transform.position == objetivo.position) {
