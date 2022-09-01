@@ -40,7 +40,9 @@ public class SpawnManager : MonoBehaviour
             i = Random.Range(0,4);
             Debug.Log("cambio: "+ i);
         }
-
+        if (true) {
+            time_score.text = time.ToString("000");
+        }
         time += Time.deltaTime;
         time_score.text = time.ToString("000");
         time_score_final.text = time.ToString("000");
